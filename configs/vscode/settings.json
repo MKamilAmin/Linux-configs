@@ -1,0 +1,121 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vsicons.dontShowNewVersionMessage": true,
+
+    "editor.mouseWheelZoom": true,
+    "prettier.tabWidth": 4,
+    "workbench.colorTheme": "Bear Theme",
+    "breadcrumbs.enabled": false,
+    "git.enableSmartCommit": true,
+    "gitmoji.addCustomEmoji": [],
+    "workbench.statusBar.visible": false,
+
+    "window.menuBarVisibility": "compact",
+    "window.zoomLevel": 0.2,
+    "workbench.layoutControl.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+
+    // FONTS
+
+    //JuliaMono (perfect)
+    "editor.fontFamily": "JuliaMono",
+    "editor.fontLigatures": "'calt' on, 'zero', 'ss01', 'ss03', 'ss06', 'ss10', 'ss13', 'cv01', 'cv02'",
+    //"editor.suggest.showInterfaces": false,
+    "editor.lineHeight": 1.4,
+
+    //JetBrains Mono (elegant)
+    /* "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.25, */
+
+    //Monaspace Krypton (game)
+    /* "editor.fontFamily": "Monaspace Krypton",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss09', 'liga'",
+    "editor.lineHeight": 1.4, */
+
+    //Fira Code (new york skyscraper)
+    /* "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.4, */
+
+    //Monaspace Argon (robust)
+    /* "editor.fontFamily": "Monaspace Argon",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss09', 'liga'",
+    "editor.lineHeight": 1.5, */
+
+    //Roboto Mono (perfect)
+    "terminal.integrated.fontFamily": "Roboto Mono",
+    "terminal.integrated.fontSize": 13,
+
+    //mononoki (warm)
+    /* "terminal.integrated.fontFamily": "mononoki",
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontSize": 13, */
+
+    //Sometype Mono (nice)
+    /* "terminal.integrated.fontFamily": "Sometype Mono", */
+
+    //"explorer.confirmDragAndDrop": false,
+    //"explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "files.insertFinalNewline": true,
+
+    "animations.Install-Method": "Custom CSS and JS",
+    "vscode_custom_css.imports": [
+        "file:///c:/Users/emilk/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js",
+        "file:///c:/Users/emilk/OneDrive/Pulpit/Programowanie/vscode-config/custom.css" // Cursor color gradient
+    ],
+    "animations.Default-Duration": 250,
+    "animations.Active": "Indent",
+    "animations.Focus-Dimming-Mode": "Everything But Editor and Terminal",
+    "workbench.reduceMotion": "off",
+    "glassit.alpha": 220,
+    "fonted.font": "Iosevka SS07",
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.cursorBlinking": "phase",
+
+    "reactSnippets.settings.importReactOnTop": false,
+    "editor.linkedEditing": true,
+
+    /* C++ */
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/mingw32/bin",
+        "C:/msys64/clang32/bin",
+        "C:/msys64/clang64/bin",
+        "C:/msys64/clangarm64/bin",
+        "C:/msys64/ucrt64/bin"
+    ],
+    "terminal.integrated.profiles.windows": {
+        "MSYS2 UCRT": {
+            "path": "cmd.exe",
+            "args": [
+                "/c",
+                "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -ucrt64"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "MSYS2 UCRT",
+    "terminal.integrated.env.windows": {
+        "TEMP": "C:\\Users\\emilk\\AppData\\Local\\Temp",
+        "TMP": "C:\\Users\\emilk\\AppData\\Local\\Temp"
+    },
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.intelliSenseUpdateDelay": 500,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "diffEditor.ignoreTrimWhitespace": true,
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 4
+}

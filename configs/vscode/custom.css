@@ -1,0 +1,68 @@
+.monaco-editor .cursors-layer .cursor {
+    /* Cinnamint */
+    /* background: #4ac29a;
+    background: -webkit-linear-gradient(to top, #bdfff3, #4ac29a);
+    background: linear-gradient(to top, #bdfff3, #4ac29a); */
+
+    /* Maldives */
+    /* 
+    background: #b2fefa;
+    background: -webkit-linear-gradient(to top, #0ed2f7, #b2fefa);
+    background: linear-gradient(to top, #0ed2f7, #b2fefa); */
+
+    background: #11998e;
+    background: -webkit-linear-gradient(to top, #38ef7d, #11998e);
+    background: linear-gradient(to top, #38ef7d, #11998e);
+}
+
+.codicon-accounts-view-bar-icon:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(/C:/Users/emilk/OneDrive/Pulpit/Programowanie/vscode-config/stemmmmm.png);
+    background-size: 100%;
+}
+
+.monaco-workbench .tabs-container .tab.active .tab-border-bottom-container {
+    /* background: linear-gradient(90deg, #ff5f6d, #ffc371); */
+    position: relative;
+    overflow: hidden;
+
+    animation: slide-border 18s linear infinite;
+
+    /* background: linear-gradient(
+        90deg,
+        #f7797d,
+        #fbd786,
+        #fbd786,
+        #c6ffdd
+    ); */ /* Customize your active tab gradient colors */
+}
+/* Gradient animation confined within tab bounds */
+.monaco-workbench
+    .tabs-container
+    .tab.active
+    .tab-border-bottom-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Confined to tab width */
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        #ff5f6d,
+        #ffc371,
+        #ffc371,
+        #ff5f6d
+    ); /* Repeat colors to create looping effect */
+    background-size: 200% 100%; /* Ensures smooth transition */
+    animation: slide-border 4s linear infinite; /* Control speed with duration */
+}
+
+@keyframes slide-border {
+    to {
+        background-position: 200%;
+    }
+}
