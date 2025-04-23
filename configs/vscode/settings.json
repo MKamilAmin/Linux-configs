@@ -11,7 +11,6 @@
     "breadcrumbs.enabled": false,
     "git.enableSmartCommit": true,
     "gitmoji.addCustomEmoji": [],
-    "workbench.statusBar.visible": false,
 
     "window.menuBarVisibility": "compact",
     "window.zoomLevel": 0.2,
@@ -70,7 +69,7 @@
 
     "animations.Install-Method": "Custom CSS and JS",
     "vscode_custom_css.imports": [
-        "file:///c:/Users/emilk/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js",
+        "file:///c:/Users/emilk/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
         "file:///c:/Users/emilk/OneDrive/Pulpit/Programowanie/vscode-config/custom.css" // Cursor color gradient
     ],
     "animations.Default-Duration": 250,
@@ -115,7 +114,20 @@
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
+
     "diffEditor.ignoreTrimWhitespace": true,
     "indentRainbow.indicatorStyle": "light",
-    "indentRainbow.lightIndicatorStyleLineWidth": 4
+    "indentRainbow.lightIndicatorStyleLineWidth": 4,
+    "githubPullRequests.pullBranch": "never",
+
+    "editor.accessibilitySupport": "off",
+    "cSpell.language": "en,pl",
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+    "svg.preview.boundingBox": true,
+    "svg.preview.transparencyGrid": true,
+    "workbench.statusBar.visible": false,
+    "material-icon-theme.folders.color": "#26a69a",
+    "material-icon-theme.folders.theme": "specific"
 }
