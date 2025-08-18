@@ -1,0 +1,16 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Vanilla AMOLED",
+  "baseFontSizeAction": true,
+  "accentColor": "#38c2ef",
+  "enabledCssSnippets": [
+    "Notebook Backgrounds",
+    "Colored Sidebar Items",
+    "CyanVoxel's General Tweaks",
+    "supercharged-links-gen"
+  ],
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "SN Pro",
+  "monospaceFontFamily": "JuliaMono",
+  "baseFontSize": 16
+}
